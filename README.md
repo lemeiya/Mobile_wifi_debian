@@ -37,7 +37,7 @@
 
 安装完驱动设备就可以被正常识别了，然后打开ssh（xshell、WindTerm等等都可以）。
 
-## 第六、SSH登录
+## 第三、SSH登录
 
 ```shell
 登录地址：ssh 192.168.68.1 
@@ -49,7 +49,7 @@
 
 ![image-20230427223256130](https://typeora.oss-cn-shenzhen.aliyuncs.com/img/202304272232193.png)
 
-## 第七、设置root账户
+## 第四、设置root账户
 
 ```bash
 #配置root用户密码 123456
@@ -73,7 +73,7 @@ userdel -r user
 
 
 
-## 第八、连接网络
+## 第五、连接网络
 
 在终端输入`nmtui`，点击`Activate a connection`
 
@@ -87,7 +87,7 @@ userdel -r user
 
 ![image-20230427224634036](https://typeora.oss-cn-shenzhen.aliyuncs.com/img/202304272246098.png)
 
-## 第九、安装软件+设定镜像源
+## 第六、安装软件+设定镜像源
 
 ### a安装系统常用软件
 
@@ -134,13 +134,13 @@ sudo apt update
 sudo apt-get upgrade
 ```
 
-## 第十、配置系统时间
+## 第七、配置系统时间
 
 `dpkg-reconfigure tzdata` 选6.然后选70（亚洲 上海）
 
 ![image-20230427230735949](https://typeora.oss-cn-shenzhen.aliyuncs.com/img/202304272307023.png)
 
-## 第十一、把Debian 设置中文环境
+## 第八、把Debian 设置中文环境
 
 ```
 要支持区域设置，首先要安装locales软件包：
